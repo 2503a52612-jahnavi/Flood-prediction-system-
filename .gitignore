@@ -1,0 +1,18 @@
+git push -u origin feature/datacleaning# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Local configuration and generated data
+.env
+.env.*
+!.env.example
+*.log
+.pytest_cache/
+.coverage
